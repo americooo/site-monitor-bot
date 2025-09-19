@@ -1,0 +1,682 @@
+2025-09-19 10:47:26,663 - INFO - \u2705 Barcha jadvallar yaratildi: sites va checks.
+2025-09-19 10:47:26,664 - INFO - \u2705 Ma'lumotlar bazasi muvaffaqiyatli yaratildi.
+2025-09-19 10:47:27,077 - INFO - \u2705 Bot ishga tushdi.
+2025-09-19 10:47:27,078 - INFO - Start polling
+2025-09-19 10:47:27,532 - INFO - Run polling for bot @amir_head_hunter_bot id=8249170358 - 'TestHeadHunter'
+2025-09-19 10:47:56,804 - INFO - Update id=867634890 is handled. Duration 422 ms by bot id=8249170358
+2025-09-19 10:48:22,342 - INFO - Update id=867634891 is handled. Duration 436 ms by bot id=8249170358
+2025-09-19 10:48:25,676 - INFO - Update id=867634892 is handled. Duration 140 ms by bot id=8249170358
+2025-09-19 10:50:13,569 - INFO - Update id=867634893 is handled. Duration 797 ms by bot id=8249170358
+2025-09-19 10:50:25,529 - INFO - Update id=867634894 is handled. Duration 218 ms by bot id=8249170358
+2025-09-19 10:50:30,443 - INFO - Update id=867634895 is handled. Duration 203 ms by bot id=8249170358
+2025-09-19 10:50:37,554 - INFO - Update id=867634896 is handled. Duration 328 ms by bot id=8249170358
+2025-09-19 10:52:55,027 - INFO - Polling stopped
+2025-09-19 10:52:55,287 - INFO - Polling stopped for bot @amir_head_hunter_bot id=8249170358 - 'TestHeadHunter'
+2025-09-19 10:53:36,010 - INFO - \u2705 Barcha jadvallar yaratildi: sites va checks.
+2025-09-19 10:53:36,010 - INFO - \u2705 Ma'lumotlar bazasi muvaffaqiyatli yaratildi.
+2025-09-19 10:53:36,386 - INFO - \u2705 Bot ishga tushdi.
+2025-09-19 10:53:36,386 - INFO - Start polling
+2025-09-19 10:53:36,948 - INFO - Run polling for bot @amir_head_hunter_bot id=8249170358 - 'TestHeadHunter'
+2025-09-19 10:53:53,128 - INFO - Update id=867634897 is handled. Duration 296 ms by bot id=8249170358
+2025-09-19 10:54:03,269 - INFO - Update id=867634898 is handled. Duration 717 ms by bot id=8249170358
+2025-09-19 10:54:32,143 - INFO - Update id=867634899 is handled. Duration 2452 ms by bot id=8249170358
+2025-09-19 10:54:34,181 - INFO - Update id=867634900 is handled. Duration 203 ms by bot id=8249170358
+2025-09-19 10:54:48,104 - ERROR - Monitoring xatosi: Instance '<Site at 0x26dc5f14170>' has been deleted, or its row is otherwise not present.
+2025-09-19 10:54:48,113 - INFO - Update id=867634901 is handled. Duration 1093 ms by bot id=8249170358
+2025-09-19 10:54:54,589 - INFO - Update id=867634902 is handled. Duration 327 ms by bot id=8249170358
+2025-09-19 10:54:56,908 - ERROR - Monitoring xatosi: Instance '<Site at 0x26dc5f158b0>' has been deleted, or its row is otherwise not present.
+2025-09-19 10:54:59,518 - INFO - Update id=867634903 is handled. Duration 1156 ms by bot id=8249170358
+2025-09-19 10:55:01,290 - INFO - Update id=867634904 is handled. Duration 172 ms by bot id=8249170358
+2025-09-19 10:55:25,517 - INFO - Update id=867634905 is handled. Duration 3983 ms by bot id=8249170358
+2025-09-19 10:55:28,665 - INFO - Update id=867634906 is handled. Duration 313 ms by bot id=8249170358
+2025-09-19 10:55:31,099 - INFO - Update id=867634907 is handled. Duration 202 ms by bot id=8249170358
+2025-09-19 10:56:55,394 - INFO - Polling stopped
+2025-09-19 10:56:55,648 - INFO - Polling stopped for bot @amir_head_hunter_bot id=8249170358 - 'TestHeadHunter'
+2025-09-19 10:57:00,782 - INFO - \u2705 Barcha jadvallar yaratildi: sites va checks.
+2025-09-19 10:57:00,782 - INFO - \u2705 Ma'lumotlar bazasi muvaffaqiyatli yaratildi.
+2025-09-19 10:57:01,131 - INFO - \u2705 Bot ishga tushdi.
+2025-09-19 10:57:01,131 - INFO - Start polling
+2025-09-19 10:57:01,620 - INFO - Run polling for bot @amir_head_hunter_bot id=8249170358 - 'TestHeadHunter'
+2025-09-19 10:57:07,018 - INFO - Update id=867634908 is handled. Duration 311 ms by bot id=8249170358
+2025-09-19 10:57:11,105 - INFO - Update id=867634909 is handled. Duration 250 ms by bot id=8249170358
+2025-09-19 10:58:15,785 - INFO - Update id=867634910 is handled. Duration 156 ms by bot id=8249170358
+2025-09-19 10:58:30,523 - INFO - Update id=867634911 is handled. Duration 202 ms by bot id=8249170358
+2025-09-19 10:58:39,381 - INFO - Update id=867634912 is not handled. Duration 15 ms by bot id=8249170358
+2025-09-19 10:58:39,382 - ERROR - Cause exception while process update id=867634912 by bot id=8249170358
+TypeError: list indices must be integers or slices, not float
+Traceback (most recent call last):
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\handlers\sites.py", line 227, in uptime
+    uptime_data[hour] += 1
+    ~~~~~~~~~~~^^^^^^
+TypeError: list indices must be integers or slices, not float
+2025-09-19 10:58:51,536 - INFO - Update id=867634913 is not handled. Duration 16 ms by bot id=8249170358
+2025-09-19 10:58:51,536 - ERROR - Cause exception while process update id=867634913 by bot id=8249170358
+NameError: name 'types' is not defined
+Traceback (most recent call last):
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\handlers\sites.py", line 277, in export_history
+    document=types.BufferedInputFile(csv_content.encode('utf-8'), filename=f'{site.url}_history.csv'),
+             ^^^^^
+NameError: name 'types' is not defined. Did you mean: 'type'? Or did you forget to import 'types'
+2025-09-19 10:58:58,482 - INFO - Update id=867634914 is handled. Duration 391 ms by bot id=8249170358
+2025-09-19 10:59:04,227 - INFO - Update id=867634915 is handled. Duration 202 ms by bot id=8249170358
+2025-09-19 10:59:10,501 - INFO - Update id=867634916 is not handled. Duration 16 ms by bot id=8249170358
+2025-09-19 10:59:10,501 - ERROR - Cause exception while process update id=867634916 by bot id=8249170358
+NameError: name 'types' is not defined
+Traceback (most recent call last):
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\handlers\sites.py", line 277, in export_history
+    document=types.BufferedInputFile(csv_content.encode('utf-8'), filename=f'{site.url}_history.csv'),
+             ^^^^^
+NameError: name 'types' is not defined. Did you mean: 'type'? Or did you forget to import 'types'
+2025-09-19 11:02:49,572 - INFO - Update id=867634917 is handled. Duration 485 ms by bot id=8249170358
+2025-09-19 11:04:28,282 - INFO - Update id=867634918 is handled. Duration 266 ms by bot id=8249170358
+2025-09-19 11:04:38,558 - INFO - Update id=867634919 is handled. Duration 250 ms by bot id=8249170358
+2025-09-19 11:04:42,352 - INFO - Update id=867634920 is handled. Duration 266 ms by bot id=8249170358
+2025-09-19 11:04:52,153 - INFO - Update id=867634921 is handled. Duration 188 ms by bot id=8249170358
+2025-09-19 11:05:32,892 - INFO - Update id=867634922 is handled. Duration 467 ms by bot id=8249170358
+2025-09-19 11:07:37,115 - INFO - Update id=867634923 is handled. Duration 968 ms by bot id=8249170358
+2025-09-19 11:09:45,199 - INFO - Update id=867634924 is handled. Duration 360 ms by bot id=8249170358
+2025-09-19 11:09:51,481 - INFO - Update id=867634925 is handled. Duration 155 ms by bot id=8249170358
+2025-09-19 11:10:20,911 - INFO - Update id=867634926 is handled. Duration 1782 ms by bot id=8249170358
+2025-09-19 11:20:08,558 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-09-19 11:20:08,559 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8249170358)
+2025-09-19 11:20:20,096 - INFO - Connection established (tryings = 1, bot id = 8249170358)
+2025-09-19 11:22:31,278 - INFO - Polling stopped
+2025-09-19 11:22:31,535 - INFO - Polling stopped for bot @amir_head_hunter_bot id=8249170358 - 'TestHeadHunter'
+2025-09-19 11:22:42,034 - INFO - \u2705 \u0412\u0441\u0435 \u0442\u0430\u0431\u043b\u0438\u0446\u044b \u0441\u043e\u0437\u0434\u0430\u043d\u044b: sites \u0438 checks.
+2025-09-19 11:22:42,034 - INFO - \u2705 \u0411\u0430\u0437\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0441\u043e\u0437\u0434\u0430\u043d\u0430.
+2025-09-19 11:22:42,839 - INFO - \u2705 \u0411\u043e\u0442 \u0437\u0430\u043f\u0443\u0449\u0435\u043d.
+2025-09-19 11:22:42,839 - INFO - Start polling
+2025-09-19 11:22:46,018 - INFO - Run polling for bot @amir_head_hunter_bot id=8249170358 - 'TestHeadHunter'
+2025-09-19 11:25:15,982 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-09-19 11:25:15,985 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8249170358)
+2025-09-19 11:25:16,009 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 \u043c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433\u0430: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 11:25:17,060 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 11:25:17,060 - WARNING - Sleep for 1.232451 seconds and try again... (tryings = 1, bot id = 8249170358)
+2025-09-19 11:25:18,304 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 11:25:18,304 - WARNING - Sleep for 1.544252 seconds and try again... (tryings = 2, bot id = 8249170358)
+2025-09-19 11:25:19,859 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 11:25:19,859 - WARNING - Sleep for 1.977269 seconds and try again... (tryings = 3, bot id = 8249170358)
+2025-09-19 11:25:21,025 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 \u043c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433\u0430: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 11:25:21,843 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 11:25:21,843 - WARNING - Sleep for 2.591119 seconds and try again... (tryings = 4, bot id = 8249170358)
+2025-09-19 11:25:24,449 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 11:25:24,449 - WARNING - Sleep for 3.430297 seconds and try again... (tryings = 5, bot id = 8249170358)
+2025-09-19 11:25:26,044 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 \u043c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433\u0430: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 11:25:27,888 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 11:25:27,888 - WARNING - Sleep for 4.399311 seconds and try again... (tryings = 6, bot id = 8249170358)
+2025-09-19 11:25:31,067 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 \u043c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433\u0430: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 11:25:43,515 - INFO - Connection established (tryings = 7, bot id = 8249170358)
+2025-09-19 12:11:21,429 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-09-19 12:11:21,429 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8249170358)
+2025-09-19 12:11:33,083 - INFO - Connection established (tryings = 1, bot id = 8249170358)
+2025-09-19 12:15:21,623 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-09-19 12:15:21,624 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8249170358)
+2025-09-19 12:40:28,038 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-09-19 12:40:28,039 - WARNING - Sleep for 1.265030 seconds and try again... (tryings = 1, bot id = 8249170358)
+2025-09-19 12:40:28,083 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 \u043c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433\u0430: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 12:40:29,310 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 12:40:29,310 - WARNING - Sleep for 1.506043 seconds and try again... (tryings = 2, bot id = 8249170358)
+2025-09-19 12:40:30,830 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 12:40:30,830 - WARNING - Sleep for 1.933229 seconds and try again... (tryings = 3, bot id = 8249170358)
+2025-09-19 12:40:32,783 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 12:40:32,783 - WARNING - Sleep for 2.662702 seconds and try again... (tryings = 4, bot id = 8249170358)
+2025-09-19 13:44:45,374 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 13:44:45,375 - WARNING - Sleep for 3.501791 seconds and try again... (tryings = 5, bot id = 8249170358)
+2025-09-19 13:44:45,375 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 \u043c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433\u0430: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 13:44:59,722 - INFO - Connection established (tryings = 6, bot id = 8249170358)
+2025-09-19 14:37:18,439 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-09-19 14:37:18,439 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8249170358)
+2025-09-19 14:37:18,520 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 \u043c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433\u0430: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 14:37:19,435 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 14:37:19,436 - WARNING - Sleep for 1.340060 seconds and try again... (tryings = 1, bot id = 8249170358)
+2025-09-19 14:37:20,789 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 14:37:20,789 - WARNING - Sleep for 1.842961 seconds and try again... (tryings = 2, bot id = 8249170358)
+2025-09-19 14:37:22,644 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 14:37:22,645 - WARNING - Sleep for 2.519027 seconds and try again... (tryings = 3, bot id = 8249170358)
+2025-09-19 14:38:15,884 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 14:38:15,884 - WARNING - Sleep for 3.489488 seconds and try again... (tryings = 4, bot id = 8249170358)
+2025-09-19 14:38:15,888 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 \u043c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433\u0430: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-19 14:38:26,784 - INFO - Polling stopped
+2025-09-19 14:38:27,046 - INFO - Polling stopped for bot @amir_head_hunter_bot id=8249170358 - 'TestHeadHunter'
+2025-09-19 14:39:20,186 - INFO - \u2705 \u0412\u0441\u0435 \u0442\u0430\u0431\u043b\u0438\u0446\u044b \u0441\u043e\u0437\u0434\u0430\u043d\u044b: sites \u0438 checks.
+2025-09-19 14:39:20,186 - INFO - \u2705 \u0411\u0430\u0437\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0441\u043e\u0437\u0434\u0430\u043d\u0430.
+2025-09-19 14:39:20,626 - INFO - \u2705 \u0411\u043e\u0442 \u0437\u0430\u043f\u0443\u0449\u0435\u043d.
+2025-09-19 14:39:20,626 - INFO - Start polling
+2025-09-19 14:39:21,222 - INFO - Run polling for bot @amir_head_hunter_bot id=8249170358 - 'TestHeadHunter'
+2025-09-19 14:40:03,439 - INFO - Update id=867634927 is handled. Duration 656 ms by bot id=8249170358
+2025-09-19 14:40:11,465 - INFO - Update id=867634928 is not handled. Duration 14 ms by bot id=8249170358
+2025-09-19 14:40:11,465 - ERROR - Cause exception while process update id=867634928 by bot id=8249170358
+NameError: name 'types' is not defined
+Traceback (most recent call last):
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\handlers\sites.py", line 277, in export_history
+    document=types.BufferedInputFile(csv_content.encode('utf-8'), filename=f'{site.url}_history.csv'),
+             ^^^^^
+NameError: name 'types' is not defined. Did you mean: 'type'? Or did you forget to import 'types'
+2025-09-19 14:41:44,207 - INFO - Update id=867634929 is handled. Duration 545 ms by bot id=8249170358
+2025-09-19 14:42:07,261 - INFO - Update id=867634930 is handled. Duration 640 ms by bot id=8249170358
+2025-09-19 14:42:16,101 - INFO - Update id=867634931 is handled. Duration 358 ms by bot id=8249170358
+2025-09-19 14:42:35,090 - INFO - Update id=867634932 is handled. Duration 295 ms by bot id=8249170358
+2025-09-19 14:43:07,974 - INFO - Update id=867634933 is not handled. Duration 16 ms by bot id=8249170358
+2025-09-19 14:43:07,975 - ERROR - Cause exception while process update id=867634933 by bot id=8249170358
+NameError: name 'types' is not defined
+Traceback (most recent call last):
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\handlers\sites.py", line 277, in export_history
+    document=types.BufferedInputFile(csv_content.encode('utf-8'), filename=f'{site.url}_history.csv'),
+             ^^^^^
+NameError: name 'types' is not defined. Did you mean: 'type'? Or did you forget to import 'types'
+2025-09-19 14:44:22,650 - INFO - Update id=867634934 is not handled. Duration 16 ms by bot id=8249170358
+2025-09-19 14:44:22,651 - ERROR - Cause exception while process update id=867634934 by bot id=8249170358
+NameError: name 'types' is not defined
+Traceback (most recent call last):
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\handlers\sites.py", line 277, in export_history
+    document=types.BufferedInputFile(csv_content.encode('utf-8'), filename=f'{site.url}_history.csv'),
+             ^^^^^
+NameError: name 'types' is not defined. Did you mean: 'type'? Or did you forget to import 'types'
+2025-09-19 14:49:07,181 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-09-19 14:49:07,181 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8249170358)
+2025-09-19 14:49:18,649 - INFO - Connection established (tryings = 1, bot id = 8249170358)
+2025-09-19 14:49:24,179 - INFO - Update id=867634935 is handled. Duration 328 ms by bot id=8249170358
+2025-09-19 14:50:58,317 - INFO - Polling stopped
+2025-09-19 14:50:58,575 - INFO - Polling stopped for bot @amir_head_hunter_bot id=8249170358 - 'TestHeadHunter'
+2025-09-19 14:53:01,977 - INFO - \u2705 \u0412\u0441\u0435 \u0442\u0430\u0431\u043b\u0438\u0446\u044b \u0441\u043e\u0437\u0434\u0430\u043d\u044b: sites \u0438 checks.
+2025-09-19 14:53:01,977 - INFO - \u2705 \u0411\u0430\u0437\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0441\u043e\u0437\u0434\u0430\u043d\u0430.
+2025-09-19 14:53:02,340 - INFO - \u2705 \u0411\u043e\u0442 \u0437\u0430\u043f\u0443\u0449\u0435\u043d.
+2025-09-19 14:53:02,341 - INFO - Start polling
+2025-09-19 14:53:02,797 - INFO - Run polling for bot @amir_head_hunter_bot id=8249170358 - 'TestHeadHunter'
+2025-09-19 14:53:03,057 - INFO - Update id=867634936 is handled. Duration 140 ms by bot id=8249170358
+2025-09-19 14:53:09,410 - INFO - Update id=867634937 is handled. Duration 156 ms by bot id=8249170358
+2025-09-19 14:53:27,496 - INFO - Update id=867634938 is handled. Duration 421 ms by bot id=8249170358
+2025-09-19 14:53:50,393 - INFO - Update id=867634939 is not handled. Duration 0 ms by bot id=8249170358
+2025-09-19 14:53:50,394 - ERROR - Cause exception while process update id=867634939 by bot id=8249170358
+NameError: name 'types' is not defined
+Traceback (most recent call last):
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\handlers\sites.py", line 277, in export_history
+    document=types.BufferedInputFile(csv_content.encode('utf-8'), filename=f'{site.url}_history.csv'),
+             ^^^^^
+NameError: name 'types' is not defined. Did you mean: 'type'? Or did you forget to import 'types'
+2025-09-19 14:53:56,904 - INFO - Update id=867634940 is handled. Duration 438 ms by bot id=8249170358
+2025-09-19 14:54:02,605 - INFO - Update id=867634941 is not handled. Duration 16 ms by bot id=8249170358
+2025-09-19 14:54:02,605 - ERROR - Cause exception while process update id=867634941 by bot id=8249170358
+NameError: name 'types' is not defined
+Traceback (most recent call last):
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\handlers\sites.py", line 277, in export_history
+    document=types.BufferedInputFile(csv_content.encode('utf-8'), filename=f'{site.url}_history.csv'),
+             ^^^^^
+NameError: name 'types' is not defined. Did you mean: 'type'? Or did you forget to import 'types'
+2025-09-19 14:56:55,408 - INFO - Polling stopped
+2025-09-19 14:56:55,662 - INFO - Polling stopped for bot @amir_head_hunter_bot id=8249170358 - 'TestHeadHunter'
+2025-09-19 15:04:30,786 - INFO - \u2705 \u0412\u0441\u0435 \u0442\u0430\u0431\u043b\u0438\u0446\u044b \u0441\u043e\u0437\u0434\u0430\u043d\u044b: sites \u0438 checks.
+2025-09-19 15:04:30,798 - INFO - \u2705 \u0411\u0430\u0437\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0441\u043e\u0437\u0434\u0430\u043d\u0430.
+2025-09-19 15:04:31,188 - INFO - \u2705 \u0411\u043e\u0442 \u0437\u0430\u043f\u0443\u0449\u0435\u043d.
+2025-09-19 15:04:31,188 - INFO - Start polling
+2025-09-19 15:04:31,611 - INFO - Run polling for bot @amir_head_hunter_bot id=8249170358 - 'TestHeadHunter'
+2025-09-19 15:04:36,008 - INFO - Update id=867634942 is handled. Duration 140 ms by bot id=8249170358
+2025-09-19 15:04:45,119 - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 \u044d\u043a\u0441\u043f\u043e\u0440\u0442\u0430 CSV: name 'types' is not defined
+2025-09-19 15:04:45,247 - INFO - Update id=867634943 is handled. Duration 141 ms by bot id=8249170358
+2025-09-19 15:05:31,819 - INFO - Polling stopped
+2025-09-19 15:05:32,074 - INFO - Polling stopped for bot @amir_head_hunter_bot id=8249170358 - 'TestHeadHunter'
+2025-09-19 15:05:39,838 - INFO - \u2705 \u0412\u0441\u0435 \u0442\u0430\u0431\u043b\u0438\u0446\u044b \u0441\u043e\u0437\u0434\u0430\u043d\u044b: sites \u0438 checks.
+2025-09-19 15:05:39,838 - INFO - \u2705 \u0411\u0430\u0437\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0441\u043e\u0437\u0434\u0430\u043d\u0430.
+2025-09-19 15:05:40,262 - INFO - \u2705 \u0411\u043e\u0442 \u0437\u0430\u043f\u0443\u0449\u0435\u043d.
+2025-09-19 15:05:40,262 - INFO - Start polling
+2025-09-19 15:05:40,697 - INFO - Run polling for bot @amir_head_hunter_bot id=8249170358 - 'TestHeadHunter'
+2025-09-19 15:05:46,342 - INFO - Update id=867634944 is handled. Duration 125 ms by bot id=8249170358
+2025-09-19 15:05:51,268 - INFO - Update id=867634945 is handled. Duration 233 ms by bot id=8249170358
+2025-09-19 15:06:18,927 - INFO - Update id=867634946 is not handled. Duration 15 ms by bot id=8249170358
+2025-09-19 15:06:18,927 - ERROR - Cause exception while process update id=867634946 by bot id=8249170358
+TypeError: list indices must be integers or slices, not float
+Traceback (most recent call last):
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\americo\OneDrive\Desktop\site-monitor-bot\handlers\sites.py", line 227, in uptime
+    uptime_data[hour] += 1
+    ~~~~~~~~~~~^^^^^^
+TypeError: list indices must be integers or slices, not float
+2025-09-19 15:08:30,693 - INFO - Polling stopped
+2025-09-19 15:08:30,732 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2706)
+2025-09-19 15:08:30,732 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8249170358)
+2025-09-19 15:08:30,953 - INFO - Polling stopped for bot @amir_head_hunter_bot id=8249170358 - 'TestHeadHunter'
+2025-09-19 15:08:47,855 - INFO - \u2705 \u0412\u0441\u0435 \u0442\u0430\u0431\u043b\u0438\u0446\u044b \u0441\u043e\u0437\u0434\u0430\u043d\u044b: sites \u0438 checks.
+2025-09-19 15:08:47,855 - INFO - \u2705 \u0411\u0430\u0437\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0441\u043e\u0437\u0434\u0430\u043d\u0430.
+2025-09-19 15:08:48,250 - INFO - \u2705 \u0411\u043e\u0442 \u0437\u0430\u043f\u0443\u0449\u0435\u043d.
+2025-09-19 15:08:48,250 - INFO - Start polling
+2025-09-19 15:08:48,709 - INFO - Run polling for bot @amir_head_hunter_bot id=8249170358 - 'TestHeadHunter'
+2025-09-19 15:09:00,781 - INFO - Update id=867634947 is handled. Duration 156 ms by bot id=8249170358
+2025-09-19 15:09:13,359 - INFO - Update id=867634948 is handled. Duration 327 ms by bot id=8249170358
+2025-09-19 15:09:20,212 - INFO - Update id=867634949 is handled. Duration 155 ms by bot id=8249170358
+2025-09-19 15:09:24,299 - INFO - Update id=867634950 is handled. Duration 188 ms by bot id=8249170358
+2025-09-19 15:09:44,482 - INFO - Update id=867634951 is handled. Duration 516 ms by bot id=8249170358
+2025-09-19 15:10:08,670 - INFO - Update id=867634952 is handled. Duration 391 ms by bot id=8249170358
+2025-09-19 15:10:30,901 - INFO - Update id=867634953 is handled. Duration 468 ms by bot id=8249170358
+2025-09-19 15:18:09,545 - INFO - Polling stopped
+2025-09-19 15:18:09,796 - INFO - Polling stopped for bot @amir_head_hunter_bot id=8249170358 - 'TestHeadHunter'
